@@ -33,3 +33,4 @@ Hit each of the following endpoints and create a new tab with a Table View and D
 3. [The Color API](http://www.thecolorapi.com/docs) (Use "Schemes")
 4. [NewsAPI](https://newsapi.org/) (Register for an API Key and select a news source other than the example)
 5. [Pokemon Cards](http://api.pokemontcg.io/v1/cards)
+6. [List of Public APIs (Pick a few to experiment with)](https://github.com/toddmotto/public-apis)
