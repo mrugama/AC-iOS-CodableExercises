@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816E12C61FBE1DB300C037F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12C51FBE1DB300C037F2 /* AppDelegate.swift */; };
+		816E12C81FBE1DB300C037F2 /* BillboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12C71FBE1DB300C037F2 /* BillboardViewController.swift */; };
+		816E12CB1FBE1DB300C037F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816E12C91FBE1DB300C037F2 /* Main.storyboard */; };
+		816E12CD1FBE1DB300C037F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816E12CC1FBE1DB300C037F2 /* Assets.xcassets */; };
+		816E12D01FBE1DB300C037F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816E12CE1FBE1DB300C037F2 /* LaunchScreen.storyboard */; };
+		816E12DB1FBE1DB300C037F2 /* AC_iOS_CodableExercisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12DA1FBE1DB300C037F2 /* AC_iOS_CodableExercisesTests.swift */; };
+		816E12E61FBE1DB400C037F2 /* AC_iOS_CodableExercisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12E51FBE1DB400C037F2 /* AC_iOS_CodableExercisesUITests.swift */; };
+		816E12F71FBE1FD500C037F2 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12F61FBE1FD500C037F2 /* WeatherViewController.swift */; };
+		816E12F91FBE20D500C037F2 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12F81FBE20D500C037F2 /* ColorViewController.swift */; };
+		816E12FB1FBE20E500C037F2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12FA1FBE20E500C037F2 /* NewsViewController.swift */; };
+		816E12FD1FBE20FD00C037F2 /* PokemonCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12FC1FBE20FD00C037F2 /* PokemonCardViewController.swift */; };
+		816E12FF1FBE22D700C037F2 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E12FE1FBE22D700C037F2 /* BookViewController.swift */; };
+		816E13011FBE263300C037F2 /* Billboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13001FBE263300C037F2 /* Billboard.swift */; };
+		816E13031FBE263F00C037F2 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13021FBE263F00C037F2 /* Weather.swift */; };
+		816E13051FBE264A00C037F2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13041FBE264A00C037F2 /* Color.swift */; };
+		816E13071FBE265400C037F2 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13061FBE265400C037F2 /* News.swift */; };
+		816E13091FBE266000C037F2 /* PokemonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13081FBE266000C037F2 /* PokemonCard.swift */; };
+		816E130B1FBE266A00C037F2 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E130A1FBE266A00C037F2 /* Book.swift */; };
+		816E130D1FBE271700C037F2 /* billboardinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E130C1FBE271700C037F2 /* billboardinfo.json */; };
+		816E130F1FBE2A0900C037F2 /* weatherinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E130E1FBE2A0900C037F2 /* weatherinfo.json */; };
+		816E13111FBE2ABB00C037F2 /* colorinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E13101FBE2ABB00C037F2 /* colorinfo.json */; };
+		816E13131FBE2B7D00C037F2 /* newsinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E13121FBE2B7D00C037F2 /* newsinfo.json */; };
+		816E13151FBE2BD000C037F2 /* pokemoncardinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E13141FBE2BD000C037F2 /* pokemoncardinfo.json */; };
+		816E13171FBE2C2A00C037F2 /* bookinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E13161FBE2C2A00C037F2 /* bookinfo.json */; };
+		816E13191FBE373D00C037F2 /* BillboardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13181FBE373D00C037F2 /* BillboardDetailViewController.swift */; };
+		816E131B1FBE416F00C037F2 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E131A1FBE416F00C037F2 /* WeatherDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816E12D71FBE1DB300C037F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816E12BA1FBE1DB300C037F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816E12C11FBE1DB300C037F2;
+			remoteInfo = "AC-iOS-CodableExercises";
+		};
+		816E12E21FBE1DB300C037F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816E12BA1FBE1DB300C037F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816E12C11FBE1DB300C037F2;
+			remoteInfo = "AC-iOS-CodableExercises";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816E12C21FBE1DB300C037F2 /* AC-iOS-CodableExercises.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-CodableExercises.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816E12C51FBE1DB300C037F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816E12C71FBE1DB300C037F2 /* BillboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardViewController.swift; sourceTree = "<group>"; };
+		816E12CA1FBE1DB300C037F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		816E12CC1FBE1DB300C037F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816E12CF1FBE1DB300C037F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816E12D11FBE1DB300C037F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816E12D61FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AC-iOS-CodableExercisesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816E12DA1FBE1DB300C037F2 /* AC_iOS_CodableExercisesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_iOS_CodableExercisesTests.swift; sourceTree = "<group>"; };
+		816E12DC1FBE1DB300C037F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816E12E11FBE1DB300C037F2 /* AC-iOS-CodableExercisesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AC-iOS-CodableExercisesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816E12E51FBE1DB400C037F2 /* AC_iOS_CodableExercisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AC_iOS_CodableExercisesUITests.swift; sourceTree = "<group>"; };
+		816E12E71FBE1DB400C037F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816E12F61FBE1FD500C037F2 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		816E12F81FBE20D500C037F2 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		816E12FA1FBE20E500C037F2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		816E12FC1FBE20FD00C037F2 /* PokemonCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardViewController.swift; sourceTree = "<group>"; };
+		816E12FE1FBE22D700C037F2 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		816E13001FBE263300C037F2 /* Billboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billboard.swift; sourceTree = "<group>"; };
+		816E13021FBE263F00C037F2 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		816E13041FBE264A00C037F2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		816E13061FBE265400C037F2 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		816E13081FBE266000C037F2 /* PokemonCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCard.swift; sourceTree = "<group>"; };
+		816E130A1FBE266A00C037F2 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		816E130C1FBE271700C037F2 /* billboardinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = billboardinfo.json; sourceTree = "<group>"; };
+		816E130E1FBE2A0900C037F2 /* weatherinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherinfo.json; sourceTree = "<group>"; };
+		816E13101FBE2ABB00C037F2 /* colorinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colorinfo.json; sourceTree = "<group>"; };
+		816E13121FBE2B7D00C037F2 /* newsinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = newsinfo.json; sourceTree = "<group>"; };
+		816E13141FBE2BD000C037F2 /* pokemoncardinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pokemoncardinfo.json; sourceTree = "<group>"; };
+		816E13161FBE2C2A00C037F2 /* bookinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bookinfo.json; sourceTree = "<group>"; };
+		816E13181FBE373D00C037F2 /* BillboardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardDetailViewController.swift; sourceTree = "<group>"; };
+		816E131A1FBE416F00C037F2 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816E12BF1FBE1DB300C037F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E12D31FBE1DB300C037F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E12DE1FBE1DB300C037F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816E12B91FBE1DB300C037F2 = {
+			isa = PBXGroup;
+			children = (
+				816E130C1FBE271700C037F2 /* billboardinfo.json */,
+				816E130E1FBE2A0900C037F2 /* weatherinfo.json */,
+				816E13101FBE2ABB00C037F2 /* colorinfo.json */,
+				816E13121FBE2B7D00C037F2 /* newsinfo.json */,
+				816E13141FBE2BD000C037F2 /* pokemoncardinfo.json */,
+				816E13161FBE2C2A00C037F2 /* bookinfo.json */,
+				816E12C41FBE1DB300C037F2 /* AC-iOS-CodableExercises */,
+				816E12D91FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests */,
+				816E12E41FBE1DB400C037F2 /* AC-iOS-CodableExercisesUITests */,
+				816E12C31FBE1DB300C037F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816E12C31FBE1DB300C037F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816E12C21FBE1DB300C037F2 /* AC-iOS-CodableExercises.app */,
+				816E12D61FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests.xctest */,
+				816E12E11FBE1DB300C037F2 /* AC-iOS-CodableExercisesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816E12C41FBE1DB300C037F2 /* AC-iOS-CodableExercises */ = {
+			isa = PBXGroup;
+			children = (
+				816E12C91FBE1DB300C037F2 /* Main.storyboard */,
+				816E12F51FBE1F9E00C037F2 /* Models */,
+				816E12F41FBE1F9200C037F2 /* View Controllers */,
+				816E12F31FBE1DC100C037F2 /* Supported Files */,
+				816E12CC1FBE1DB300C037F2 /* Assets.xcassets */,
+				816E12D11FBE1DB300C037F2 /* Info.plist */,
+			);
+			path = "AC-iOS-CodableExercises";
+			sourceTree = "<group>";
+		};
+		816E12D91FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests */ = {
+			isa = PBXGroup;
+			children = (
+				816E12DA1FBE1DB300C037F2 /* AC_iOS_CodableExercisesTests.swift */,
+				816E12DC1FBE1DB300C037F2 /* Info.plist */,
+			);
+			path = "AC-iOS-CodableExercisesTests";
+			sourceTree = "<group>";
+		};
+		816E12E41FBE1DB400C037F2 /* AC-iOS-CodableExercisesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816E12E51FBE1DB400C037F2 /* AC_iOS_CodableExercisesUITests.swift */,
+				816E12E71FBE1DB400C037F2 /* Info.plist */,
+			);
+			path = "AC-iOS-CodableExercisesUITests";
+			sourceTree = "<group>";
+		};
+		816E12F31FBE1DC100C037F2 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				816E12C51FBE1DB300C037F2 /* AppDelegate.swift */,
+				816E12CE1FBE1DB300C037F2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		816E12F41FBE1F9200C037F2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				816E12C71FBE1DB300C037F2 /* BillboardViewController.swift */,
+				816E13181FBE373D00C037F2 /* BillboardDetailViewController.swift */,
+				816E12F61FBE1FD500C037F2 /* WeatherViewController.swift */,
+				816E131A1FBE416F00C037F2 /* WeatherDetailViewController.swift */,
+				816E12F81FBE20D500C037F2 /* ColorViewController.swift */,
+				816E12FA1FBE20E500C037F2 /* NewsViewController.swift */,
+				816E12FC1FBE20FD00C037F2 /* PokemonCardViewController.swift */,
+				816E12FE1FBE22D700C037F2 /* BookViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		816E12F51FBE1F9E00C037F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				816E13001FBE263300C037F2 /* Billboard.swift */,
+				816E13021FBE263F00C037F2 /* Weather.swift */,
+				816E13041FBE264A00C037F2 /* Color.swift */,
+				816E13061FBE265400C037F2 /* News.swift */,
+				816E13081FBE266000C037F2 /* PokemonCard.swift */,
+				816E130A1FBE266A00C037F2 /* Book.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816E12C11FBE1DB300C037F2 /* AC-iOS-CodableExercises */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816E12EA1FBE1DB400C037F2 /* Build configuration list for PBXNativeTarget "AC-iOS-CodableExercises" */;
+			buildPhases = (
+				816E12BE1FBE1DB300C037F2 /* Sources */,
+				816E12BF1FBE1DB300C037F2 /* Frameworks */,
+				816E12C01FBE1DB300C037F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AC-iOS-CodableExercises";
+			productName = "AC-iOS-CodableExercises";
+			productReference = 816E12C21FBE1DB300C037F2 /* AC-iOS-CodableExercises.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816E12D51FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816E12ED1FBE1DB400C037F2 /* Build configuration list for PBXNativeTarget "AC-iOS-CodableExercisesTests" */;
+			buildPhases = (
+				816E12D21FBE1DB300C037F2 /* Sources */,
+				816E12D31FBE1DB300C037F2 /* Frameworks */,
+				816E12D41FBE1DB300C037F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816E12D81FBE1DB300C037F2 /* PBXTargetDependency */,
+			);
+			name = "AC-iOS-CodableExercisesTests";
+			productName = "AC-iOS-CodableExercisesTests";
+			productReference = 816E12D61FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816E12E01FBE1DB300C037F2 /* AC-iOS-CodableExercisesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816E12F01FBE1DB400C037F2 /* Build configuration list for PBXNativeTarget "AC-iOS-CodableExercisesUITests" */;
+			buildPhases = (
+				816E12DD1FBE1DB300C037F2 /* Sources */,
+				816E12DE1FBE1DB300C037F2 /* Frameworks */,
+				816E12DF1FBE1DB300C037F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816E12E31FBE1DB300C037F2 /* PBXTargetDependency */,
+			);
+			name = "AC-iOS-CodableExercisesUITests";
+			productName = "AC-iOS-CodableExercisesUITests";
+			productReference = 816E12E11FBE1DB300C037F2 /* AC-iOS-CodableExercisesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816E12BA1FBE1DB300C037F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = C4Q;
+				TargetAttributes = {
+					816E12C11FBE1DB300C037F2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					816E12D51FBE1DB300C037F2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816E12C11FBE1DB300C037F2;
+					};
+					816E12E01FBE1DB300C037F2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816E12C11FBE1DB300C037F2;
+					};
+				};
+			};
+			buildConfigurationList = 816E12BD1FBE1DB300C037F2 /* Build configuration list for PBXProject "AC-iOS-CodableExercises" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 816E12B91FBE1DB300C037F2;
+			productRefGroup = 816E12C31FBE1DB300C037F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816E12C11FBE1DB300C037F2 /* AC-iOS-CodableExercises */,
+				816E12D51FBE1DB300C037F2 /* AC-iOS-CodableExercisesTests */,
+				816E12E01FBE1DB300C037F2 /* AC-iOS-CodableExercisesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816E12C01FBE1DB300C037F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E12D01FBE1DB300C037F2 /* LaunchScreen.storyboard in Resources */,
+				816E130D1FBE271700C037F2 /* billboardinfo.json in Resources */,
+				816E13171FBE2C2A00C037F2 /* bookinfo.json in Resources */,
+				816E12CD1FBE1DB300C037F2 /* Assets.xcassets in Resources */,
+				816E13151FBE2BD000C037F2 /* pokemoncardinfo.json in Resources */,
+				816E130F1FBE2A0900C037F2 /* weatherinfo.json in Resources */,
+				816E12CB1FBE1DB300C037F2 /* Main.storyboard in Resources */,
+				816E13111FBE2ABB00C037F2 /* colorinfo.json in Resources */,
+				816E13131FBE2B7D00C037F2 /* newsinfo.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E12D41FBE1DB300C037F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E12DF1FBE1DB300C037F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816E12BE1FBE1DB300C037F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E12FD1FBE20FD00C037F2 /* PokemonCardViewController.swift in Sources */,
+				816E13191FBE373D00C037F2 /* BillboardDetailViewController.swift in Sources */,
+				816E12C81FBE1DB300C037F2 /* BillboardViewController.swift in Sources */,
+				816E131B1FBE416F00C037F2 /* WeatherDetailViewController.swift in Sources */,
+				816E12F71FBE1FD500C037F2 /* WeatherViewController.swift in Sources */,
+				816E13051FBE264A00C037F2 /* Color.swift in Sources */,
+				816E12FF1FBE22D700C037F2 /* BookViewController.swift in Sources */,
+				816E13031FBE263F00C037F2 /* Weather.swift in Sources */,
+				816E13071FBE265400C037F2 /* News.swift in Sources */,
+				816E13091FBE266000C037F2 /* PokemonCard.swift in Sources */,
+				816E12F91FBE20D500C037F2 /* ColorViewController.swift in Sources */,
+				816E13011FBE263300C037F2 /* Billboard.swift in Sources */,
+				816E12FB1FBE20E500C037F2 /* NewsViewController.swift in Sources */,
+				816E130B1FBE266A00C037F2 /* Book.swift in Sources */,
+				816E12C61FBE1DB300C037F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E12D21FBE1DB300C037F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E12DB1FBE1DB300C037F2 /* AC_iOS_CodableExercisesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816E12DD1FBE1DB300C037F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E12E61FBE1DB400C037F2 /* AC_iOS_CodableExercisesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816E12D81FBE1DB300C037F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816E12C11FBE1DB300C037F2 /* AC-iOS-CodableExercises */;
+			targetProxy = 816E12D71FBE1DB300C037F2 /* PBXContainerItemProxy */;
+		};
+		816E12E31FBE1DB300C037F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816E12C11FBE1DB300C037F2 /* AC-iOS-CodableExercises */;
+			targetProxy = 816E12E21FBE1DB300C037F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816E12C91FBE1DB300C037F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816E12CA1FBE1DB300C037F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816E12CE1FBE1DB300C037F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816E12CF1FBE1DB300C037F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816E12E81FBE1DB400C037F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		816E12E91FBE1DB400C037F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816E12EB1FBE1DB400C037F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-CodableExercises/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.AC-iOS-CodableExercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816E12EC1FBE1DB400C037F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-CodableExercises/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.AC-iOS-CodableExercises";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		816E12EE1FBE1DB400C037F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-CodableExercisesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.AC-iOS-CodableExercisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AC-iOS-CodableExercises.app/AC-iOS-CodableExercises";
+			};
+			name = Debug;
+		};
+		816E12EF1FBE1DB400C037F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-CodableExercisesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.AC-iOS-CodableExercisesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AC-iOS-CodableExercises.app/AC-iOS-CodableExercises";
+			};
+			name = Release;
+		};
+		816E12F11FBE1DB400C037F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-CodableExercisesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.AC-iOS-CodableExercisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AC-iOS-CodableExercises";
+			};
+			name = Debug;
+		};
+		816E12F21FBE1DB400C037F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AC-iOS-CodableExercisesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ac.c4q.nyc.AC-iOS-CodableExercisesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AC-iOS-CodableExercises";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816E12BD1FBE1DB300C037F2 /* Build configuration list for PBXProject "AC-iOS-CodableExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E12E81FBE1DB400C037F2 /* Debug */,
+				816E12E91FBE1DB400C037F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816E12EA1FBE1DB400C037F2 /* Build configuration list for PBXNativeTarget "AC-iOS-CodableExercises" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E12EB1FBE1DB400C037F2 /* Debug */,
+				816E12EC1FBE1DB400C037F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816E12ED1FBE1DB400C037F2 /* Build configuration list for PBXNativeTarget "AC-iOS-CodableExercisesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E12EE1FBE1DB400C037F2 /* Debug */,
+				816E12EF1FBE1DB400C037F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816E12F01FBE1DB400C037F2 /* Build configuration list for PBXNativeTarget "AC-iOS-CodableExercisesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816E12F11FBE1DB400C037F2 /* Debug */,
+				816E12F21FBE1DB400C037F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816E12BA1FBE1DB300C037F2 /* Project object */;
+}

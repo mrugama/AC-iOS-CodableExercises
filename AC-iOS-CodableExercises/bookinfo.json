@@ -1,0 +1,135 @@
+{
+    "records": {
+        "/books/OL24194264M": {
+            "recordURL": "http://openlibrary.org/books/OL24194264M/The_Art_of_Community",
+            "oclcs": [],
+            "publishDates": [
+                             "2009"
+                             ],
+            "lccns": [],
+            "details": {
+                "bib_key": "isbn:0596156715",
+                "preview": "restricted",
+                "preview_url": "https://archive.org/details/artcommunitybuil00baco",
+                "info_url": "http://openlibrary.org/books/OL24194264M/The_Art_of_Community",
+                "details": {
+                    "physical_format": "Paperback",
+                    "publishers": [
+                                   "O'Reilly"
+                                   ],
+                    "languages": [
+                                  {
+                                  "key": "/languages/eng"
+                                  }
+                                  ],
+                    "identifiers": {},
+                    "subtitle": "Building the New Age of Participation",
+                    "source_records": [
+                                       "ia:artcommunitybuil00baco"
+                                       ],
+                    "contributors": [
+                                     {
+                                     "role": "Foreword",
+                                     "name": "Leo Laporte"
+                                     }
+                                     ],
+                    "title": "The Art of Community",
+                    "classifications": {},
+                    "number_of_pages": 364,
+                    "created": {
+                        "type": "/type/datetime",
+                        "value": "2010-04-19T04:29:48.755799"
+                    },
+                    "isbn_13": [
+                                "978-0-596-15671-8"
+                                ],
+                    "last_modified": {
+                        "type": "/type/datetime",
+                        "value": "2014-07-29T14:19:32.142204"
+                    },
+                    "latest_revision": 3,
+                    "key": "/books/OL24194264M",
+                    "publish_date": "2009",
+                    "ocaid": "artcommunitybuil00baco",
+                    "publish_places": [
+                                       "California, USA"
+                                       ],
+                    "works": [
+                              {
+                              "key": "/works/OL15058799W"
+                              }
+                              ],
+                    "type": {
+                        "key": "/type/edition"
+                    },
+                    "revision": 3
+                }
+            },
+            "isbns": [
+                      "978-0-596-15671-8"
+                      ],
+            "olids": [
+                      "OL24194264M"
+                      ],
+            "issns": [],
+            "data": {
+                "publishers": [
+                               {
+                               "name": "O'Reilly"
+                               }
+                               ],
+                "number_of_pages": 364,
+                "subtitle": "Building the New Age of Participation",
+                "title": "The Art of Community",
+                "url": "http://openlibrary.org/books/OL24194264M/The_Art_of_Community",
+                "identifiers": {
+                    "isbn_13": [
+                                "978-0-596-15671-8"
+                                ],
+                    "openlibrary": [
+                                    "OL24194264M"
+                                    ]
+                },
+                "subjects": [
+                             {
+                             "url": "https://openlibrary.org/subjects/social_aspects",
+                             "name": "Social aspects"
+                             },
+                             {
+                             "url": "https://openlibrary.org/subjects/interactive_computer_systems",
+                             "name": "Interactive computer systems"
+                             },
+                             {
+                             "url": "https://openlibrary.org/subjects/electronic_villages_(computer_networks)",
+                             "name": "Electronic villages (Computer networks)"
+                             },
+                             {
+                             "url": "https://openlibrary.org/subjects/online_social_networks",
+                             "name": "Online social networks"
+                             }
+                             ],
+                "publish_date": "2009",
+                "key": "/books/OL24194264M",
+                "authors": [
+                            {
+                            "url": "http://openlibrary.org/authors/OL2654203A/Jono_Bacon",
+                            "name": "Jono Bacon"
+                            }
+                            ],
+                "publish_places": [
+                                   {
+                                   "name": "California, USA"
+                                   }
+                                   ],
+                "ebooks": [
+                           {
+                           "availability": "restricted",
+                           "preview_url": "https://archive.org/details/artcommunitybuil00baco",
+                           "formats": {}
+                           }
+                           ]
+            }
+        }
+    },
+    "items": []
+}
