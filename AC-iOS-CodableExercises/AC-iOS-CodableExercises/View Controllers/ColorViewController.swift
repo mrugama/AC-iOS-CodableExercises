@@ -8,28 +8,58 @@
 
 import UIKit
 
-class ColorViewController: UIViewController {
-
+class ColorViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    
+    var colors: Color?
+    
+    @IBOutlet weak var colorTableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.colorTableView.delegate = self
+        self.colorTableView.dataSource = self
+        loadColorData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func loadColorData() {
+        if let path = Bundle.main.path(forResource: "colorinfo", ofType: "json") {
+            let myURL = URL(fileURLWithPath: path)
+            if let data = try? Data(contentsOf: myURL) {
+                let myDecoder = JSONDecoder()
+                do {
+                    let myColors = try myDecoder.decode(Color.self, from: data)
+                    self.colors = myColors
+                } catch let error {
+                    print("Unexpected format:", error)
+                }
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: - TableView Datasource Methods
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = colorTableView.dequeueReusableCell(withIdentifier: "Color Cell", for: indexPath)
+        cell.textLabel?.text = colors?.name.value
+        guard let colors = colors else {
+            return UITableViewCell()
+        }
+        let r = colors.rgb.fraction.r
+        let g = colors.rgb.fraction.g
+        let b = colors.rgb.fraction.b
+        cell.detailTextLabel?.text = "R: \(r.description), G: \(g.description), B: \(b.description)"
+        return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+    }
 
 }

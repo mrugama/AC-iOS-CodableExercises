@@ -10,26 +10,25 @@ import UIKit
 
 class WeatherDetailViewController: UIViewController {
 
+    var weatherDetail: Weather?
+    
+    @IBOutlet weak var country: UILabel!
+    @IBOutlet weak var weather: UILabel!
+    @IBOutlet weak var wind: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        loadLabels()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func loadLabels() {
+        let country = weatherDetail?.name ?? "Country not found"
+        let weather = weatherDetail?.weather[0].description
+        let wind = "Speed wind: " + (weatherDetail?.wind.speed.description)!
+        self.country.text = country
+        self.weather.text = weather
+        self.wind.text = wind
     }
-    */
+    
 
 }

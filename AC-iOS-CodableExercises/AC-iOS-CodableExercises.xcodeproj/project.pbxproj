@@ -33,6 +33,7 @@
 		816E13171FBE2C2A00C037F2 /* bookinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 816E13161FBE2C2A00C037F2 /* bookinfo.json */; };
 		816E13191FBE373D00C037F2 /* BillboardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E13181FBE373D00C037F2 /* BillboardDetailViewController.swift */; };
 		816E131B1FBE416F00C037F2 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E131A1FBE416F00C037F2 /* WeatherDetailViewController.swift */; };
+		816E131D1FBF38D400C037F2 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816E131C1FBF38D400C037F2 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		816E13161FBE2C2A00C037F2 /* bookinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = bookinfo.json; sourceTree = "<group>"; };
 		816E13181FBE373D00C037F2 /* BillboardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardDetailViewController.swift; sourceTree = "<group>"; };
 		816E131A1FBE416F00C037F2 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		816E131C1FBF38D400C037F2 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 				816E12F61FBE1FD500C037F2 /* WeatherViewController.swift */,
 				816E131A1FBE416F00C037F2 /* WeatherDetailViewController.swift */,
 				816E12F81FBE20D500C037F2 /* ColorViewController.swift */,
+				816E131C1FBF38D400C037F2 /* ColorDetailViewController.swift */,
 				816E12FA1FBE20E500C037F2 /* NewsViewController.swift */,
 				816E12FC1FBE20FD00C037F2 /* PokemonCardViewController.swift */,
 				816E12FE1FBE22D700C037F2 /* BookViewController.swift */,
@@ -357,6 +360,7 @@
 				816E13071FBE265400C037F2 /* News.swift in Sources */,
 				816E13091FBE266000C037F2 /* PokemonCard.swift in Sources */,
 				816E12F91FBE20D500C037F2 /* ColorViewController.swift in Sources */,
+				816E131D1FBF38D400C037F2 /* ColorDetailViewController.swift in Sources */,
 				816E13011FBE263300C037F2 /* Billboard.swift in Sources */,
 				816E12FB1FBE20E500C037F2 /* NewsViewController.swift in Sources */,
 				816E130B1FBE266A00C037F2 /* Book.swift in Sources */,

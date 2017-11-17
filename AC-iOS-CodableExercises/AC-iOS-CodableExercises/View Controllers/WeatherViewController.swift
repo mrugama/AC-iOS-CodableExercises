@@ -49,4 +49,8 @@ class WeatherViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let weatherSender = segue.destination as? WeatherDetailViewController
+        weatherSender!.weatherDetail = self.weather!
+    }
 }
